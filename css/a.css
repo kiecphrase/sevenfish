@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(215, 235, 235);
     overflow-x: hidden;
 }
 
@@ -13,26 +13,32 @@ p{
 
 h1{
     font-family: Cochin, serif;
+    color: rgb(113, 176, 62);
 }
 
 h2{
     font-family: Cochin, serif;
+    color: rgb(38, 38, 110);
 }
 
 h3{
     font-family: Cochin, serif;
+    color: rgb(232, 123, 172);
 }
 
 h4{
     font-family: monospace;
+    color: rgb(24, 37, 105);
 }
 
 h5{
     font-family: monospace;
+    color: rgb(104,81,173);
+    font-size: 1rem;
 }
 
 span{
-    color: slateblue
+    color: rgb(0,127,191);
 }
 
 /* STRUCTURAL */
@@ -71,10 +77,10 @@ span{
 
 .thing{
     padding-left: 1rem;
-    color: black;
+    color: rgb(0, 106, 176);
 }
 
 .thing:hover{
     padding-left: 1rem;
-    color: slategray;
+    color: rgb(196, 49, 35);
 }
