@@ -1,2 +1,2 @@
 # sevenfish
-stuff for the website
+personal website for some things
