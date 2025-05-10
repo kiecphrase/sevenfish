@@ -84,3 +84,17 @@ span{
     padding-left: 1rem;
     color: rgb(196, 49, 35);
 }
+
+/* UTILITY */
+.no_c{
+    display: none;
+}
+
+.actually_button{
+    color: rgb(232, 123, 172);
+}
+
+.actually_button:hover{
+    color: rgb(217, 59, 124);
+    text-decoration: underline double rgb(217, 59, 124);
+}
