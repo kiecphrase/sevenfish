@@ -1,10 +1,12 @@
 body{
     overflow: hidden;
     background-color: white;
+    cursor: url('../imgs/feesh.png'), auto;
 }
 
 a{
     font-family:Calibri;
+    cursor: url('../imgs/feesh.png'), auto;
 }
 
 /* STRUCTURAL */

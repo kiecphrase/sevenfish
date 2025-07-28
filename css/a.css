@@ -1,10 +1,12 @@
 body{
     background-color: rgb(215, 235, 235);
     overflow-x: hidden;
+    cursor: url('../imgs/feesh.png'), auto;
 }
 
 a{
     font-family:Calibri, sans-serif;
+    cursor: url('../imgs/feesh.png'), auto;
 }
 
 p{
