@@ -73,7 +73,7 @@
 
         <div class="text_bucket">
 
-            <h3 id="anythingbutwindows" class="actually_button" onclick="toggleview(this.id)">Anything But Windows 11</h3>
+            <h3 id="anythingbutwindows" class="actually_button" onclick="toggleview(this.id)">Home Labbing (Anything But Windows 11)</h3>
 
             <div id="anythingbutwindows_body" class="no_c">
                 <h5>20250322</h5>
@@ -131,6 +131,15 @@
                 <h5>20251122</h5>
                 <p>Due to a move, I didn't get nearly as far in this as I would've wanted. However, I also haven't quit. Now that life's a little more stable, we'll get back on track with this soon.</p>
                 <p>Potential side project: Windows 10 paint on Windows 11.</p>
+
+                <h5>20260124</h5>
+                <p>Pivoting to expand the scope because I want to and can.</p>
+
+                <h5>20260125</h5>
+                <p>Finally got a Minecraft server deployed and boy howdy it was annoying. I probably did a lot of rework, but I don't know what wasn't valid and what was, so I'll just talk about what I know.<br>Currently have a Lenovo Thinkpad with an i5 11th gen and ~8G of RAM running Ubuntu. I had docker, but due to other issues I've diabled it more or less until I figure out if it was part of the problem.<br> 2 Biggest hiccups in this entire process were Double NAT and Isolated VLANS. I think both are due to the Dream Machine I use.</p>
+                <p><b>DOUBLE NAT ISSUE:</b> The ATT box I get can do bridging, but you need to give it the MAC of the device you want to use. Normally not a problem, but I didn't remember until well into the process that a <br>Dream Machine obfuscates the last hex of its MAC. So even though I had it set up right, it wasn't actually passing the IP.</p>
+                <p><b>ISOLATED VLANS ISSUES: </b> I have many VLANs, they're <i>mostly</i> isolated at I believe L3. Because one isn't due to a different project, and the Minecraft server is, when I try to connect to it, I can't <br>because the nonisolated one sends the request, it gets to the Dream Machine, the DM says "oh, that's me!" and then tries to push the traffic back but can't. I have temporarily resolved this <br>by using a VPN to connect to my own server which is at most 4ft away physically from my computer. Latency isn't too bad and I think it's funny.</p>
+
             </div>
 
         </div>
@@ -215,6 +224,9 @@
             
                 <h5>20251222</h5>
                 <p>Basics configured and sent out to the group. Also will continue to work on this when I can.</p>
+
+                <h5>20260125</h5>
+                <p>doa</p>
             </div>
 
         </div>

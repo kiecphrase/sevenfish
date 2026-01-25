@@ -43,6 +43,10 @@ span{
     color: rgb(0,127,191);
 }
 
+b{
+    color: #7b2421
+}
+
 /* STRUCTURAL */
 .abs_holder {
     position: absolute;
