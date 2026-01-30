@@ -53,6 +53,8 @@
                     <li>#7b2421 - Winter Top Red (2025)</li>
                     <li>#998819 - Winter Bottom (2025)</li>
                     <li>#591a0c - Winter text (2025)</li>
+                    <li>White Peach Winter Release (2026)</li>
+                    <li>ice can (2026)</li>
                 </ul>
                 <br>
                 <h5>20250321</h5>
@@ -139,6 +141,9 @@
                 <p>Finally got a Minecraft server deployed and boy howdy it was annoying. I probably did a lot of rework, but I don't know what wasn't valid and what was, so I'll just talk about what I know.<br>Currently have a Lenovo Thinkpad with an i5 11th gen and ~8G of RAM running Ubuntu. I had docker, but due to other issues I've diabled it more or less until I figure out if it was part of the problem.<br> 2 Biggest hiccups in this entire process were Double NAT and Isolated VLANS. I think both are due to the Dream Machine I use.</p>
                 <p><b>DOUBLE NAT ISSUE:</b> The ATT box I get can do bridging, but you need to give it the MAC of the device you want to use. Normally not a problem, but I didn't remember until well into the process that a <br>Dream Machine obfuscates the last hex of its MAC. So even though I had it set up right, it wasn't actually passing the IP.</p>
                 <p><b>ISOLATED VLANS ISSUES: </b> I have many VLANs, they're <i>mostly</i> isolated at I believe L3. Because one isn't due to a different project, and the Minecraft server is, when I try to connect to it, I can't <br>because the nonisolated one sends the request, it gets to the Dream Machine, the DM says "oh, that's me!" and then tries to push the traffic back but can't. I have temporarily resolved this <br>by using a VPN to connect to my own server which is at most 4ft away physically from my computer. Latency isn't too bad and I think it's funny.</p>
+
+                <h5>20260129</h5>
+                <p>Well I'm bored of having fun so next step is to make a hosted platform to manage game server access and accounts for my friends. General goal is to make it so that my friends can create <br> an account, add profile names that they use, and then when I make a server, I can whitelist them with the information they already provide. It will have to be opt-in, and it will probably be not great visually <br>but visual aesthetic is usually secondary in these types of projects. Also, I'm going to want this to have the potential to do a lot of things so I plan on using python.</p>
 
             </div>
 
