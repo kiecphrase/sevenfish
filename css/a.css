@@ -15,7 +15,7 @@ p{
 
 h1{
     font-family: Cochin, serif;
-    color: rgb(113, 176, 62);
+    color: #1e243c;
 }
 
 h2{
@@ -25,7 +25,7 @@ h2{
 
 h3{
     font-family: Cochin, serif;
-    color: rgb(232, 123, 172);
+    color: #89142e;
 }
 
 h4{
@@ -97,10 +97,10 @@ b{
 }
 
 .actually_button{
-    color: rgb(232, 123, 172);
+    color: #89142e;
 }
 
 .actually_button:hover{
-    color: rgb(217, 59, 124);
-    text-decoration: underline double rgb(217, 59, 124);
+    color: #422258;
+    text-decoration: underline double #aa131a;
 }
